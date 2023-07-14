@@ -1,0 +1,78 @@
+<form action="/cpu" method="POST">
+  <div class="form-group">
+    <label for="name">benchmark:</label>
+    <input type="text" id="benchmark" name="benchmark" placeholder="请输入您的benchmark" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="email">服务器名:</label>
+    <input type="text" id="sys" name="sys" placeholder="请输入您的服务器" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="message">核心数:</label>
+    <input type="text" id="cores" name="cores" placeholder="请输入您的核心数" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="message">芯片数:</label>
+    <input type="text" id="chips" name="chips" placeholder="请输入您的芯片数" required>
+  </div>
+
+  <div class="form-group">
+    <label for="message">单核线程数:</label>
+    <input type="text" id="enabled_threads_per_core" name="enabled_threads_per_core" placeholder="请输入您的单核线程数" required>
+  </div>  
+  
+  <div class="form-group">
+    <label for="message">处理器的mhz:</label>
+    <input type="text" id="processor_mhz" name="processor_mhz" placeholder="请输入您的处理器的mhz" required>
+  </div>  
+  
+  <div class="form-group">
+    <label for="message">是否并行:</label>
+    <input type="text" id="parallel" name="parallel" placeholder="请输入是否并行" required>
+  </div>  
+  
+  <div class="form-group">
+    <label for="message">基准指针大小:</label>
+    <input type="text" id="base_pointer_size" name="base_pointer_size" placeholder="请输入您的基准指针大小" required>
+  </div>  
+  
+  <div class="form-group">
+    <label for="message">最高指针大小:</label>
+    <input type="text" id="peak_pointer_size" name="peak_pointer_size" placeholder="请输入您的最高指针大小" required>
+  </div>  
+  
+  <div class="form-group">
+    <label for="message">第一cache:</label>
+    <input type="text" id="first_level_cache" name="first_level_cache" placeholder="请输入您的第一cache大小" required>
+  </div>  
+  
+  <div class="form-group">
+    <label for="message">第二cache:</label>
+    <input type="text" id="second_level_cache" name="second_level_cache" placeholder="请输入您的第二cache大小" required>
+  </div>  
+  
+  <div class="form-group">
+    <label for="message">第三cache:</label>
+    <input type="text" id="third_level_cache" name="third_level_cache" placeholder="请输入您的第三cache大小" required>
+  </div> 
+  
+  <div class="form-group">
+    <label for="message">其他cache:</label>
+    <input type="text" id="other_cache" name="other_cache" placeholder="请输入您的其他cache大小" required>
+  </div> 
+  
+  <div class="form-group">
+    <label for="message">内存:</label>
+    <input type="text" id="memory" name="memory" placeholder="请输入您的内存大小" required>
+  </div>  
+  
+  <div class="form-group">
+    <label for="message">硬盘:</label>
+    <input type="text" id="storage" name="storage" placeholder="请输入您的硬盘大小" required>
+  </div> 
+    
+  <button type="submit">提交</button>
+</form>

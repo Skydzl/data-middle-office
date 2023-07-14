@@ -1,0 +1,12 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = 'empty-project-type'
+recent_files = ['datapool.py', 'ml_service/feature_engineering.py', 'ml_service/model.py', 'ml_service/http_interface.py', 'data_clean_func.py', 'get_url.py', 'field2db.py', 'crawl.py']
+
+[main]
+version = 0.2.0
+recent_files = []
+
